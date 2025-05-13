@@ -1,0 +1,90 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="book store page.css"/>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+        <div class="bg-container">
+            <h1 class="h1">Popular Book</h1>
+            <div class="cc1 d-flex flex-row justify-content-between">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="i1" />
+                <div>
+                    <h4 class="h4">Wings of Fire</h4>
+                    <p class="p">An Autobiography of Abdul Kalam</p>
+                    <p class="p1">by Arun Tiwari</p>
+                    <button class="btn btn-primary b1" onclick="display('section2')">Read Now</button>
+                </div>
+            </div>
+            <h2 class="h2">Recommended Books</h2>
+            <div class="d-flex flex-column justify-content-end">
+                <div class="cc2 d-flex flex-row justify-content-between">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="i2" />
+                    <div>
+                        <h4 class="h4 w">The 3 mistakes of my life</h4>
+                        <p class="p w">Indian author by Chetan Bhagat</p>
+                        <button class="btn btn-primary b1" onclick="display('section3')">Read Now</button>
+                    </div>
+                </div>
+                <div class="cc2 d-flex flex-row justify-content-between">
+                    <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="i2" />
+                    <div>
+                        <h4 class="h4 w">Harry Potter</h4>
+                        <p class="p w">and the Sorcerer's Stone by J.K.Rowling</p>
+                        <button class="btn btn-primary b1" onclick="display('section4')">Read Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="section2">
+        <div class="bg-container">
+            <div class="t1">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-apj-img.png" class="i3" />
+                <h1 class="w t2">Wings of Fire</h1>
+                <p class="w t2">by Arun Tiwari</p>
+            </div>
+            <p class="w">Ever common man who by his sheer gift and hard work<br /> achive success should share his story with the rest for they may find inspiration and strength to go on,i his story.The 'Wings of Fire' is one such autobiograpy by visionary scientist Dr.APJ Abdul Kalam, who from very humble beginnings rose to be the President of India.The book is full of insights,peranal moments and life experience of Dr.Kalam.It gives us an understanding on his journey of success</p>
+            <div class="t1 d-flex flex-row justify-content-center">
+                <button class="btn btn-warning m" onclick="display('section1')">back</button>
+                <button class="btn btn-primary m">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="section3">
+        <div class="bg-container">
+            <div class="t1">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/book-chetan-bhagat-img.png" class="i3" />
+                <h1 class="w t2">The 3 mistakes of my life</h1>
+                <p class="w t2">by Chetan Bhagat</p>
+            </div>
+            <p class="w">The 3 mistakes of my life is the third novel written by eminent Indian Author Chetan Bhagat.Based on cricket,business and relgion, the novel is set against the backdrop of beautiful city Ahmedabad.Revolving around three young Indian boys Omi,Ishaan and Govind,the book goes on to narrate how the three are trying their best to make ends in the city.Based on real events,the book starts with a dramatic twist,where Bhagat is reading an e-mail sent by some young person Govind.</p>
+            <div class="t1 d-flex flex-row justify-content-center">
+                <button class="btn btn-warning m" onclick="display('section1')">Back</button>
+                <button class="btn btn-primary m">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <div id="section4">
+        <div class="bg-container">
+            <div class="t1">
+                <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/harrypotter-img.png" class="i3" />
+                <h1 class="w t2">Harry Potter</h1>
+                <p class="w t2">by J.K.Rowling</p>
+            </div>
+            <p class="w">Harry Potter's life is miserable.His parents are dead and he's struck with his heartless relatives,who force him to live in a tiny closet under the stairs.But his fortune changes when he recevies a letter that tells him the truth about himself:he's a wizard.A mysterious visitor rescues him from his reatives ans takes him new home,Hogwarts School of Witchcraft and Wizardry.After a lifetime of bottling up his magical powers,Harry finally feels like a normal kid.</p>
+            <div class="t1 d-flex flex-row justify-content-center">
+                <button class="btn btn-warning m" onclick="display('section1')">Back</button>
+                <button class="btn btn-primary m">Buy Now</button>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>

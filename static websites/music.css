@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container {
+    background-image: url("https://new-assets.ccbp.in/frontend/static-website/moon-stars-bg.png");
+    background-size: cover;
+    height: 180vh;
+    border-radius: 0px;
+    color: #ffffff;
+    font-family: "bree Serif";
+    text-align: center;
+}
+
+.cc1 {
+    text-align: center;
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/moon-bg.png");
+    background-size: cover;
+    border-radius: 20px;
+    margin: 70px;
+    height: 250px;
+    width: 450px;
+}
+
+.h1 {
+    padding: 100px;
+}
+
+.b1 {
+    background-color: #8e97fd;
+    color: #ffffff;
+    margin: 20px;
+    width: 120px;
+    border-radius: 20px;
+    border-width: 0px;
+    font-family: bree Serif;
+}
+
+.m1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.p1 {
+    font-weight: 100;
+    font-size: 15px;
+}
+
+.bg1 {
+    background-color: #03174c;
+    color: #ffffff;
+    height: 210vh;
+}
+
+.i1 {
+    height: 300px;
+    width: 600px;
+}
+
+.i2 {
+    height: 170px;
+    width: 250px;
+    margin: 20px;
+}
+
+.heading {
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: bree Serif;
+}
+
+.para {
+    color: #98a1bd;
+    padding-left: 20px;
+    font-family: bree Serif;
+}
+
+.para1 {
+    color: #ffffff;
+    padding-left: 20px;
+    font-family: bree Serif;
+}
